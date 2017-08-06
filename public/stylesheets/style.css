@@ -1,0 +1,259 @@
+body {
+  margin: 0px;
+  font-family: 'HK-Nova', sans-serif;
+}
+
+#ft {
+  background-color: black;
+  height: 150px;
+  margin-top: -20px;
+}
+
+#news {
+  background-color: #F6F6F6;
+  height: 1200px;
+  margin-top: -20px;
+}
+
+#sess {
+  background-color: black;
+  height: 1000px;
+  margin-top: -20px;
+}
+
+#modset {
+  background-color: #F6F6F6;
+  height: 1000px;
+  margin-top: -20px;
+}
+
+.modimg {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  float: left;
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/351645757482013054/25A82517B546DE888414307B5A14DB1252CD5741/');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  margin-top: 120px;
+}
+
+#connect {
+  height: 1000px;
+  background-color: black;
+  margin-top: -20px;
+}
+
+.conimg {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  float: right;
+  background-image: url('https://images-ext-2.discordapp.net/external/9h-deg5xTNsEr15NLRh8sik2g9w2ZRChsQCM1DzwmU0/https/steamuserimages-a.akamaihd.net/ugc/539629815131383355/31B283B716DE971E508DA90D122AE7E29CC09A0C/?width=1109&height=624');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+  margin-top: 120px;
+}
+
+#header {
+  height: 1000px;
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/351644786899353736/74D3272599F3057741EE1FCF5990D1D2227D086A/');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  z-index: 4;
+}
+
+.cover {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  z-index: 3;
+  height: 800px;
+}
+
+.text {
+  text-align: center;
+  font-size: 48pt;
+  padding-top: 250px;
+  z-index: 2;
+  color: white;
+
+}
+
+.fh1 { 
+  font-size: 40pt;
+  font-family: 'Loew', sans-serif;
+  text-transform: uppercase;
+}
+
+.bh1 {
+  margin-top: -70px;
+  font-family: 'Avenir', sans-serif;
+  text-transform: uppercase;
+}
+
+.title {
+  color: white;
+  padding-top: 40px;
+  padding-left: 100px;
+  font-family: 'Loew', sans-serif;
+  font-size: 40pt;
+}
+
+.sub {
+  margin-left: 7px;
+  margin-top: -80px;
+  font-size: 25pt;
+}
+
+.text-b {
+  font-size: 16pt !important;
+  text-align: justify;
+  padding-top: 10px;
+  margin-left: 7px;
+}
+
+.admin {
+  display: inline-block;
+  list-style: none;
+  font-size: 14pt;
+  padding-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #DA3232;
+  cursor: pointer !important;
+
+}
+
+.title-w {
+  color: #151515;
+  padding-top: 35px;
+  padding-right: 380px;
+  font-family: 'Loew', sans-serif;
+  font-size: 40pt;
+  float: right;
+}
+
+.sub-w {
+  margin-left: 3px;
+  margin-top: -80px;
+  font-size: 25pt;
+}
+
+.text-b {
+  font-size: 12pt;
+  text-align: justify;
+  padding-top: 10px;
+  margin-left: 7px;
+}
+
+/*
+* Session Time Section
+*/
+
+.three {
+  margin-left: -70px;
+  font-size: 18pt;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 50px;
+}
+
+.time-h3 {
+  text-transform: uppercase;
+  font-size: 22pt;
+  color: #DA3232;
+}
+
+.one-t {
+  list-style: none;
+  display: table-cell;
+  text-align: center;
+}
+
+.two-t {
+  list-style: none;
+  display: table-cell;
+  text-align: center
+}
+
+.three-t {
+  list-style: none;
+  display: table-cell;
+  text-align: center
+}
+
+.time {
+  padding-top: 10px;
+}
+
+/*
+* News section
+*/
+
+.title-nws {
+  color: black;;
+  padding-top: 40px;
+  padding-left: 100px;
+  font-family: 'Loew', sans-serif;
+  font-size: 40pt;
+}
+
+.sub-nws {
+  margin-left: 7px;
+  margin-top: -80px;
+  font-size: 25pt;
+}
+
+.nws-col {
+  display: table;
+  width: 800px;
+  position: relative;
+  left: 30%;
+  table-layout: fixed;
+  border-spacing: 10px;
+  font-family: sans-serif;
+  margin-top: 100px;
+  font-family: 'HK-Nova', sans-serif;
+}
+
+.nws-story {
+  display: table-cell;
+}
+
+
+
+/*
+* Footer
+*/
+
+.ft-text{
+  text-align: center;
+  color: #F6F6F6;
+  font-family: 'HK-Nova', sans-serif;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.ft-text2 {
+   text-align: center;
+  color: #F6F6F6;
+  font-family: 'HK-Nova', sans-serif;
+  font-size: 15px;
+  padding-top: 7px;
+}
+
+.ft-link {
+  background-color: none !important;
+  cursor: pointer;
+}
+
+.heart {
+  position: relative;
+  top: 7px;
+}
