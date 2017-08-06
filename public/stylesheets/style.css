@@ -25,6 +25,19 @@ body {
   background-color: #F6F6F6;
   height: 1000px;
   margin-top: -20px;
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/351645757482013054/25A82517B546DE888414307B5A14DB1252CD5741/');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 4;
+}
+
+#modset-w {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  z-index: 2;
+  height: 1000px;
+  width: 40%;
+  float: right;
+  margin-top: -20px;
 }
 
 .modimg {
@@ -32,9 +45,6 @@ body {
   height: 980px;
   position: relative;
   float: left;
-  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/351645757482013054/25A82517B546DE888414307B5A14DB1252CD5741/');
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: 0px;
   
 }
@@ -131,7 +141,7 @@ a {
 .title-w {
   color: #151515;
   padding-top: 240px;
-  padding-right: 320px;
+  padding-right: 270px;
   font-family: 'Loew', sans-serif;
   font-size: 40pt;
   float: right;
