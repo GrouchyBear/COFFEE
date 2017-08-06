@@ -19,33 +19,27 @@ body {
   background-color: black;
   height: 1000px;
   margin-top: -20px;
+  z-index: 3 !important;
+  position: relative;
 }
 
 #modset {
   background-color: #F6F6F6;
   height: 1000px;
   margin-top: -20px;
-  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/351645757482013054/25A82517B546DE888414307B5A14DB1252CD5741/');
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 4;
-}
-
-#modset-w {
-  background-color: rgba(255, 255, 255, 0.8) !important;
-  z-index: 2;
-  height: 1000px;
-  width: 40%;
-  float: right;
-  margin-top: -20px;
 }
 
 .modimg {
-  width: 50%;
-  height: 980px;
+  width: 700px;
+  height: 800px;
   position: relative;
   float: left;
-  margin: 0px;
+  background-image: url('https://puu.sh/x3oKO.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 180px;
+  margin-top: 220px;
+  z-index: 2 !important;
   
 }
 
@@ -56,14 +50,15 @@ body {
 }
 
 .conimg {
-  width: 50%;
-  height: 980px;
+  width: 700px;
+  height: 400px;
   position: relative;
   float: right;
-  background-image: url('https://images-ext-2.discordapp.net/external/9h-deg5xTNsEr15NLRh8sik2g9w2ZRChsQCM1DzwmU0/https/steamuserimages-a.akamaihd.net/ugc/539629815131383355/31B283B716DE971E508DA90D122AE7E29CC09A0C/?width=1109&height=624');
-  background-size: cover;
+  background-image: url('https://puu.sh/x3qma.png');
+  background-size: contain;
   background-repeat: no-repeat;
-  margin: 0px;
+  margin-right: 220px;
+  margin-top: 280px;
 }
 
 #header {
@@ -141,7 +136,7 @@ a {
 .title-w {
   color: #151515;
   padding-top: 240px;
-  padding-right: 270px;
+  padding-right: 340px;
   font-family: 'Loew', sans-serif;
   font-size: 40pt;
   float: right;
